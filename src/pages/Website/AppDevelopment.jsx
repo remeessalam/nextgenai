@@ -40,7 +40,7 @@ const AppDevelopment = () => {
       <div className="grid lg:grid-cols-1 gap-7">
         <div className="flex flex-col gap-4">
           {details.keyPoints.points.map((items) => (
-            <div className="flex flex-col gap-2">
+            <div key={items.heading} className="flex flex-col gap-2">
               <div className="flex gap-3 items-center">
                 <div className="w-[1.6rem] text-lg h-[1.6rem] rounded-full flex items-center justify-center border-2 border-[#00B0FC] text-[#00B0FC]">
                   ✓

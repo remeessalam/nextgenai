@@ -160,7 +160,10 @@ const AboutUs = () => {
           <h2 className="heading mt-2">Our Work Process</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-2 mt-10 gap-6 lg:gap-10">
             {aboutusDetails.map((items) => (
-              <div className="max-w-[20rem] sm:max-w-full sm:w-full z-10 relative bg-black/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-lg p-5 border-2 border-primary">
+              <div
+                key={items.heading}
+                className="max-w-[20rem] sm:max-w-full sm:w-full z-10 relative bg-black/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-lg p-5 border-2 border-primary"
+              >
                 <img
                   src={process1}
                   loading="lazy"
@@ -241,7 +244,10 @@ const AboutUs = () => {
 
         <div className="mt-9 mb-14 flex flex-col gap-6">
           {whyusDetails.map((item) => (
-            <div className="text-start bg-white/40 hover:scale-95 hover:bg-main/70 transition-all duration-500 rounded-md px-5 py-9">
+            <div
+              key={item.heading}
+              className="text-start bg-white/40 hover:scale-95 hover:bg-main/70 transition-all duration-500 rounded-md px-5 py-9"
+            >
               <h1 className="text-4xl mb-3 font-semibold">{item.heading}</h1>
               <p>{item.description}</p>
             </div>

@@ -25,6 +25,7 @@ const ServicePageLayout = () => {
               <div className="mt-5 flex flex-wrap md:flex-col gap-3">
                 {services.map((item) => (
                   <Link
+                    key={item.id}
                     className={`${
                       item.link === pathname
                         ? "bg-main text-white"
