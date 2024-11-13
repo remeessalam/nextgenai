@@ -157,8 +157,8 @@ const LeadForm = () => {
             </div>
             <button
               disabled={isSubmitting}
-              type="submit"
-              className="primary-btn mt-3"
+              // type="submit"
+              className="primary-btn mt-3 hover:text-black"
             >
               Submit
             </button>
