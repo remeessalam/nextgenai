@@ -16,7 +16,7 @@ import { companyDetails, services } from "../constant";
 const Footer = () => {
   return (
     <div
-      className="border-t-2 py-[2rem] bg-cover bg-top bg-black"
+      className="border-t-2 py-[2rem] bg-cover bg-top bg-black text-white"
       // style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="wrapper grid grid-cols-1 md:grid-cols-4 lg:grid-cols-[50%_20%_30%] gap-6">

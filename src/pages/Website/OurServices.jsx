@@ -50,8 +50,8 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      <Testimonials />
-      <SolveITNeeds />
+      {/* <Testimonials />
+      <SolveITNeeds /> */}
       <Footer />
     </div>
   );
