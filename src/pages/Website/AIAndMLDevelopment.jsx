@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../assets/images/services-details/ai1.jpeg";
-import img2 from "../../assets/images/services-details/ai2.jpeg";
+import img1 from "../../assets/images/serviceuiuxone.jpg";
+import img2 from "../../assets/images/serviceuiuxtwo.jpg";
 import { Link } from "react-router-dom";
 import { services } from "../../constant";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
@@ -15,8 +15,8 @@ const AIAndMLDevelopment = () => {
         data-aos="fade-up"
         src={img1}
         loading="lazy"
-        className="h-[25rem] object-cover rounded-3xl object-center"
-        alt="ai&ml development"
+        className="h-[25rem] w-full object-cover rounded-3xl object-center"
+        alt="ui ux development"
       />
       <div className="flex flex-col gap-4">
         <h2 data-aos="fade-up" className="heading">

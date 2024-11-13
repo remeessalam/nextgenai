@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../assets/images/services-details/blockchain1.jpg";
-import img2 from "../../assets/images/services-details/blockchain2.jpeg";
+import img1 from "../../assets/images/servicechatbotone.jpg";
+import img2 from "../../assets/images/servicechatbottwo.jpg";
 import { Link } from "react-router-dom";
 import { services } from "../../constant";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
