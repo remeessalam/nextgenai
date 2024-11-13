@@ -366,9 +366,10 @@ export const aboutusDetails = [
 
 // details
 export const companyDetails = {
-  phone: "+916301350318",
-  email: "info@aiwebx.in",
-  location: "Bengaluru, India, 560076",
+  phone: "+916363237815",
+  email: "abc@example.cn",
+  location:
+    "Visit us at Flat-405, Chaitra Alpine Apartment, Alfa Garden, 1st Right Cross, Kodigehalli, KR Puram, Bengaluru – 560036",
 };
 
 export const landingPageNavLinks = [
