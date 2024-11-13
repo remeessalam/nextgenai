@@ -29,77 +29,63 @@ const LandingPage = ({ page }) => {
             Our Expertise
           </h2>
           <p data-aos="fade-up" className="mt-2 mb-3">
-            At <strong>AI WebX</strong>, we leverage cutting-edge technology to
-            deliver custom solutions that drive innovation and efficiency across
-            industries. Our areas of expertise include:
+            At <strong>NEXTGENAI SYSTEMS LLP</strong>, we leverage cutting-edge
+            technology to deliver custom solutions that drive innovation and
+            efficiency across industries. Our areas of expertise include:
           </p>
         </div>
         <ul className="list-disc pl-5 mt-3 flex flex-col gap-4">
           <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">
-              Artificial Intelligence & Machine Learning:
-            </strong>{" "}
-            We build intelligent systems that enhance decision-making, automate
-            processes, and provide deep insights for businesses.
+            <strong className="text-[1.1rem]">Web Designing:</strong> We craft
+            visually engaging, responsive websites that captivate users and
+            align seamlessly with your brand, driving impactful results.
           </li>
           <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">Blockchain Development: </strong>
-            Secure and decentralized solutions for transactions, data integrity,
-            and digital assets.
+            <strong className="text-[1.1rem]">APP Development: </strong>
+            We develop user-focused, high-performance apps designed to deliver
+            seamless experiences across platforms, empowering your business to
+            connect and engage with customers effectively.
           </li>
           <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">
-              Web & Mobile App Development:{" "}
-            </strong>{" "}
-            Crafting high-performance, user-centric applications that drive
-            engagement and revenue growth.
+            <strong className="text-[1.1rem]">UX/UI Design: </strong> We craft
+            intuitive, visually engaging UX/UI designs that enhance user
+            satisfaction and drive meaningful interactions, ensuring every
+            touchpoint aligns with your brand and goals.
           </li>
           <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">
-              Cloud Computing Services:{" "}
-            </strong>{" "}
-            Optimizing operations with scalable, secure cloud infrastructure and
-            seamless cloud migration services.
-          </li>
-          <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">Cybersecurity Solutions: </strong>{" "}
-            Comprehensive security measures to protect your business from cyber
-            threats and ensure data privacy.
-          </li>
-          <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">AR/VR Development:</strong>{" "}
-            Immersive virtual and augmented reality experiences that transform
-            user interactions.
+            <strong className="text-[1.1rem]">Chatbot Development: </strong> We
+            create smart, conversational chatbots that improve customer
+            engagement, streamline support, and provide personalized
+            experiences, helping businesses connect with users efficiently and
+            effectively.
           </li>
           <li data-aos="fade-up" className="">
             <strong className="text-[1.1rem]">
-              Data Analytics & Business Intelligence:
-            </strong>{" "}
-            Actionable insights from big data to drive informed decision-making
-            and growth strategies.
-          </li>
-          <li data-aos="fade-up" className="">
-            <strong className="text-[1.1rem]">IoT Development: </strong>{" "}
-            Connecting devices and systems to enhance automation and operational
-            efficiency
+              Custom Software Development Services:
+            </strong>
+            We deliver custom software solutions tailored to meet your unique
+            business needs, driving operational efficiency and fostering growth.
+            Our expertise ensures scalable, secure, and user-centric
+            applications that adapt to your evolving goals.
           </li>
           <li data-aos="fade-up" className="">
             <strong className="text-[1.1rem]">
-              Natural Language Processing (NLP):
+              Robotic Process Automation:
             </strong>{" "}
-            Advanced text and speech recognition for enhanced customer service
-            and communication.
+            We optimize workflows with RPA, automating repetitive tasks to boost
+            accuracy and efficiency, freeing resources for strategic growth.
           </li>
           <li data-aos="fade-up" className="">
             <strong className="text-[1.1rem]">
-              Robotic Process Automation (RPA):
-            </strong>{" "}
-            Streamlining repetitive tasks to improve operational efficiency and
-            reduce costs.
+              Robotic Control System Software Development:
+            </strong>
+            We develop advanced robotic control software, enabling precision,
+            efficiency, and enhanced automation for optimized operational
+            performance.
           </li>
         </ul>
       </div>
-      <div className="wrapper py-[2rem] flex flex-col gap-3">
+      {/* <div className="wrapper py-[2rem] flex flex-col gap-3">
         <div className="flex flex-col gap-3">
           <h2
             data-aos="fade-up"
@@ -134,12 +120,12 @@ const LandingPage = ({ page }) => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <WorkFlow page={page} />
-      <Experience />
-      <Testimonials />
+      {/* <Experience /> */}
+      {/* <Testimonials /> */}
       <LeadForm />
-      <AssociatedWith />
+      {/* <AssociatedWith /> */}
       <Footer />
     </div>
   );

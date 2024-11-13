@@ -1,9 +1,6 @@
 import React from "react";
 import line from "../../assets/images/line.png";
-import {
-  appDevelopmentServices,
-  webDevelopmentServices,
-} from "../../constant";
+import { appDevelopmentServices, webDevelopmentServices } from "../../constant";
 
 const Services = ({ page }) => {
   return (
@@ -15,7 +12,7 @@ const Services = ({ page }) => {
       <div className="wrapper py-10 flex flex-col items-center gap-5 z-10">
         <div data-aos="fade-up" className="flex items-center gap-3">
           <img src={line} alt="line" className="w-[3rem]" />
-          <h6 className="font-medium text-secondary">
+          <h6 className="font-medium text-main">
             {/* Popular Services */}
             {page === "web-development" && "Web Development Services"}
             {page === "app-development" && "App Development Services"}
@@ -54,7 +51,7 @@ const Services = ({ page }) => {
                     className="w-[3rem] grayscale"
                   />
                 </div>
-                <h6 className="font-medium text-lg">{item.title}</h6>
+                <h6 className="font-medium text-lg text-black">{item.title}</h6>
                 <p className="text-gray-700 text-md">{item.description}</p>
               </div>
             ))}
