@@ -28,27 +28,34 @@ const Banner = () => {
     >
       <div className="wrapper pt-[10rem] pb-[5rem] flex flex-col-reverse lg:grid grid-cols-[60%_40%] items-center gap-5">
         <div className="flex flex-col gap-4 items-start justify-center">
-          <p
+          {/* <p
             data-aos="fade-right"
-            className="bg-[#ECECF2] p-1 text-gray-500 text-sm"
+            className="bg-[#ECECF2] p-1 text-gray-100 text-sm"
           >
             IT Services
-          </p>
+          </p> */}
           <h1
             data-aos="fade-right"
             className="text-[2.5rem] md:text-5xl font-bold leading-tight"
           >
-            AI WebX - Powering the Future with Intelligent Solutions
+            NEXTGENAI SYSTEMS LLP - Innovating for a Smarter, Connected Future
           </h1>
-          <p data-aos="fade-right" className="text-sm text-gray-500">
-            Harness the full potential of Artificial Intelligence, Blockchain,
-            and Cloud Computing to revolutionize your business processes. AI
-            WebX delivers customized, next-gen technology solutions that enhance
-            innovation, optimize efficiency, and open the doors to new growth
-            avenues. Our mission is to empower businesses to thrive in a rapidly
-            evolving digital landscape.
+          <p data-aos="fade-right" className="text-sm text-gray-100">
+            At NEXTGENAI SYSTEMS LLP, we ignite transformative digital solutions
+            with our passionate team of expert developers, designers, and
+            technologists. We specialize in crafting unique websites, mobile
+            apps, and automation systems tailored to your business's DNA. Our
+            approach blends innovation, strategy, and technology to deliver
+            impactful, lasting results. We’re committed to not just meeting your
+            needs but driving your business forward. Partner with us to create a
+            digital legacy that unlocks new growth and paves the path to success
+            in today’s digital era.
           </p>
-          <Link to="/contact" data-aos="fade-right" className="primary-btn mt-10">
+          <Link
+            to="/contact"
+            data-aos="fade-right"
+            className="primary-btn mt-10"
+          >
             Get Started
           </Link>
         </div>

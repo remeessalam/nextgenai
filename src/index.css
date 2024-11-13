@@ -31,7 +31,7 @@ html {
     @apply max-w-7xl mx-auto px-4 sm:px-6;
   }
   .primary-btn {
-    @apply bg-gradient-to-r rounded-full px-5 text-sm font-medium py-3 from-primary to-[#515151] text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
+    @apply bg-gradient-to-r rounded-full px-5 text-sm font-medium py-3 from-primary to-[#5b5858] text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
   }
   .link {
     @apply cursor-pointer;
@@ -40,7 +40,7 @@ html {
     @apply bg-[#5080a159] h-[30rem] w-[30rem] rounded-full blur-3xl absolute;
   } */
   .active-item {
-    @apply text-primary font-semibold;
+    @apply text-main font-semibold;
   }
   .heading {
     @apply text-[2rem] md:text-4xl leading-tight font-semibold;
@@ -48,7 +48,7 @@ html {
   .heading-2 {
     @apply text-[1.5rem] md:text-3xl font-medium leading-tight;
   }
-  .error-message{
+  .error-message {
     @apply text-red-700 text-sm h-4 mb-2;
   }
 }
@@ -56,6 +56,11 @@ html {
 p {
   line-height: 1.7;
   letter-spacing: 0.7px;
+}
+
+.focused-text:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .landing-bg::before {
@@ -66,11 +71,12 @@ p {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background-image: url("../public/background-1.jpg");
+  background-color: rgba(20, 19, 19, 0.917);
+  /* background-image: url("../public/background-1.jpg"); */
   background-size: cover;
   background-position: right;
   z-index: -1;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   pointer-events: none;
   animation: moveBackground 100s linear infinite;
 }

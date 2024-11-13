@@ -16,8 +16,8 @@ import { companyDetails, services } from "../constant";
 const Footer = () => {
   return (
     <div
-      className="border-t-2 py-[2rem] bg-cover bg-top"
-      style={{ backgroundImage: `url(${bg})` }}
+      className="border-t-2 py-[2rem] bg-cover bg-top bg-black"
+      // style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="wrapper grid grid-cols-1 md:grid-cols-4 lg:grid-cols-[50%_20%_30%] gap-6">
         <div className="w-fit md:col-span-4 lg:col-span-1 md:place-self-center lg:place-self-auto">
@@ -46,7 +46,8 @@ const Footer = () => {
                   className="w-[1.5rem] object-contain grayscale"
                 />
                 <a href={`mailto:${companyDetails.email}`}>
-                  <span className="font-medium">Email:</span> {companyDetails.email}
+                  <span className="font-medium">Email:</span>{" "}
+                  {companyDetails.email}
                 </a>
               </li>
               <li className="flex gap-2 items-center">
@@ -56,7 +57,8 @@ const Footer = () => {
                   className="w-[1.5rem] object-contain grayscale"
                 />
                 <a href={`tel:${companyDetails.phone}`}>
-                  <span className="font-medium">Phone:</span> {companyDetails.phone}
+                  <span className="font-medium">Phone:</span>{" "}
+                  {companyDetails.phone}
                 </a>
               </li>
               <li className="flex gap-2 items-start">
@@ -66,7 +68,8 @@ const Footer = () => {
                   className="w-[1.5rem] object-contain grayscale"
                 />
                 <span className="max-w-[15rem] text-wrap">
-                  <span className="font-medium">Location:</span> {companyDetails.location}
+                  <span className="font-medium">Location:</span>{" "}
+                  {companyDetails.location}
                 </span>
               </li>
             </ul>
