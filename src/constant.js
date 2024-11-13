@@ -6,7 +6,7 @@ export const services = [
     icon: require("./assets/images/icons/iconweddesign.png"),
     description:
       "We understand that your website is more than just an online presence—it’s a critical business asset that showcases your brand, engages your audience, and drives growth. That’s why we focus on delivering exceptional website development services that blend creativity, functionality, and cutting-edge technology to create websites that truly stand out. Whether you’re a growing business looking to establish a professional online presence or a large enterprise seeking a dynamic e-commerce platform, we tailor our website development solutions to meet your unique needs. We don’t just build websites; we create engaging digital experiences that convert visitors into loyal customers, helping your business thrive in a competitive digital landscape.",
-    link: "/services/web-development",
+    link: "/services/web-designing",
     keyPoints: {
       heading: "Key Features of Our Website Development Services",
       points: [
@@ -49,7 +49,7 @@ export const services = [
     icon: require("./assets/images/icons/iconappdevelopment.png"),
     description:
       "We bring your app ideas to life by developing high-performance mobile applications that drive business growth. From concept to launch, our team ensures your app not only meets your vision but also exceeds user expectations, helping your business succeed in a competitive mobile market. Whether you need an app for iOS, Android, or cross-platform, we have the expertise to deliver apps that are fast, responsive, and optimized for an outstanding user experience. Our focus on cutting-edge technology and a user-first approach ensures that your mobile app is engaging and keeps customers coming back.",
-    link: "/services/web-development",
+    link: "/services/app-development",
     keyPoints: {
       heading: "How We Bring Your App to Life",
       points: [
@@ -102,7 +102,7 @@ export const services = [
     icon: require("./assets/images/icons/iconuiux.png"),
     description:
       "At NEXTGENAI SYSTEMS LLP, we believe that great digital products begin with great design. Our UX/UI design services are driven by a deep understanding of human behavior, usability principles, and cutting-edge design trends. We create digital experiences that not only look stunning but also feel intuitive, providing users with a seamless journey from start to finish.",
-    link: "/services/web-development",
+    link: "/services/uxui-design",
     keyPoints: {
       heading: "Key Features of Our Website Development Services",
       points: [
@@ -150,7 +150,7 @@ export const services = [
     icon: require("./assets/images/icons/iconrobot.png"),
     description:
       "In today’s fast-paced digital landscape, effective customer engagement is crucial for success. At NEXTGENAI SYSTEMS LLP, we specialize in developing intelligent AI-powered chatbots that transform the way you interact with your customers. Our cutting-edge chatbot solutions harness the power of advanced Natural Language Processing (NLP) to provide quick, accurate, and contextually relevant responses, ensuring seamless conversations that feel natural and engaging.",
-    link: "/services/web-development",
+    link: "/services/chatbot-development",
     keyPoints: {
       heading: "Key Benefits of Our Chatbot Solutions",
       points: [
@@ -193,7 +193,7 @@ export const services = [
     icon: require("./assets/images/icons/iconcustom.png"),
     description:
       "Whether you’re looking to optimize your internal processes, enhance customer engagement, or build a complex enterprise solution, our custom software development services are designed to meet the unique needs of your business. We focus on delivering secure, scalable, and high-performance solutions that drive efficiency and innovation.",
-    link: "/services/web-development",
+    link: "/services/custom-software-developments",
     keyPoints: {
       heading: "Key Features of Our Software Development Services",
       points: [
@@ -236,7 +236,7 @@ export const services = [
     icon: require("./assets/images/icons/iconroboticprocess.png"),
     description:
       "In today’s fast-paced business environment, maximizing efficiency is crucial to staying competitive. At NEXTGENAI SYSTEMS LLP, our Robotic Process Automation (RPA) solutions empower organizations to streamline operations by automating repetitive and time-consuming tasks. By harnessing the power of RPA, you can significantly enhance productivity, reduce operational costs, and allow your team to focus on strategic initiatives that drive growth.",
-    link: "/services/web-development",
+    link: "/services/robotic-process-automation",
     keyPoints: {
       heading: "Why Opt for Our RPA Services?",
       points: [
@@ -279,7 +279,7 @@ export const services = [
     icon: require("./assets/images/icons/iconroboticcontrol.png"),
     description:
       "we create advanced software solutions for robotic control systems, ensuring top-notch precision and efficiency. As industries embrace automation, our expertise helps your robots perform at their best, boosting productivity and reliability across various applications, from manufacturing to logistics. Our robotic control software is tailored to fit a variety of industrial applications. Whether you need software for manufacturing robots, automated assembly lines, or logistics systems, we work closely with you to understand your unique requirements. Our solutions integrate seamlessly with your existing hardware, aligning perfectly with your operational goals.",
-    link: "/services/web-development",
+    link: "/services/robotic-control-system",
     keyPoints: {
       heading: "Key Features of Our Robotic Control Software",
       points: [

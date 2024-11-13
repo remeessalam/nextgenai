@@ -28,7 +28,7 @@ const ServicePageLayout = () => {
                     className={`${
                       item.link === pathname
                         ? "bg-secondary text-white"
-                        : "bg-white text-primary"
+                        : "bg-gray-400 text-primary"
                     } flex items-center gap-2 justify-between p-3 rounded-md`}
                     to={item.link}
                   >
@@ -45,12 +45,11 @@ const ServicePageLayout = () => {
                 <FaPhoneAlt className="text-3xl" />
               </div>
               <h4 className="text-2xl font-medium">Need Help? Call Here</h4>
-              <p
-                className="font-semibold"
+              <p className="font-semibold">{companyDetails.phone}</p>
+              <Link
+                to={`tel:${companyDetails.phone}`}
+                className="bg-secondary rounded-md w-full px-5 text-sm font-medium py-3 text-white hover:-translate-y-1 hover:shadow-xl hover:bg-white hover:text-secondary border border-secondary cursor-pointer transition-all duration-300"
               >
-                {companyDetails.phone}
-              </p>
-              <Link to={`tel:${companyDetails.phone}`} className="bg-secondary rounded-md w-full px-5 text-sm font-medium py-3 text-white hover:-translate-y-1 hover:shadow-xl hover:bg-white hover:text-secondary border border-secondary cursor-pointer transition-all duration-300">
                 Contact Now
               </Link>
             </div>
@@ -66,16 +65,17 @@ const ServicePageLayout = () => {
               <FaPhoneAlt className="text-3xl" />
             </div>
             <h4 className="text-2xl font-medium">Need Help? Call Here</h4>
-            <p className="font-semibold">
-              {companyDetails.phone}
-            </p>
-            <Link to={`tel:${companyDetails.phone}`} className="bg-secondary rounded-md w-full px-5 text-sm font-medium py-3 text-white hover:-translate-y-1 hover:shadow-xl hover:bg-white hover:text-secondary border border-secondary cursor-pointer transition-all duration-300">
+            <p className="font-semibold">{companyDetails.phone}</p>
+            <Link
+              to={`tel:${companyDetails.phone}`}
+              className="bg-secondary rounded-md w-full px-5 text-sm font-medium py-3 text-white hover:-translate-y-1 hover:shadow-xl hover:bg-white hover:text-secondary border border-secondary cursor-pointer transition-all duration-300"
+            >
               Contact Now
             </Link>
           </div>
         </div>
       </div>
-      <SolveITNeeds/>
+      <SolveITNeeds />
       <Footer />
     </>
   );

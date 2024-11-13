@@ -36,9 +36,9 @@ const OurServices = () => {
             We provide the best services
           </h1>
           <p data-aos="fade-up" className="text-center max-w-2xl">
-            At AI WebX, we offer a full range of advanced technology services
-            designed to empower businesses with scalable, intelligent, and
-            secure solutions.
+            At NEXTGENAI SYSTEMS LLP, we provide a comprehensive suite of
+            advanced technology services tailored to empower businesses with
+            scalable, intelligent, and secure solutions.
           </p>
           <div
             data-aos="fade-up"
@@ -50,9 +50,9 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      <Testimonials/>
-      <SolveITNeeds/>
-      <Footer/>
+      <Testimonials />
+      <SolveITNeeds />
+      <Footer />
     </div>
   );
 };

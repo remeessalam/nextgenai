@@ -20,6 +20,7 @@ import { Toaster } from "react-hot-toast";
 import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./components/SpinnerContext";
+import RoboticControlSystem from "./pages/Website/RoboticControlSystem";
 
 AOS.init({
   once: true,
@@ -52,18 +53,22 @@ function App() {
 
           {/* Services Detail Routes with Layout */}
           <Route path="/services" element={<ServicePageLayout />}>
-            <Route path="web-development" element={<WebDevelopment />} />
+            <Route path="web-designing" element={<WebDevelopment />} />
             <Route path="app-development" element={<AppDevelopment />} />
-            <Route path="ai-ml-development" element={<AIAndMLDevelopment />} />
+            <Route path="uxui-design" element={<AIAndMLDevelopment />} />
             <Route
-              path="blockchain-solutions"
+              path="chatbot-development"
               element={<BlockchainDevelopment />}
             />
             <Route
-              path="cloud-computing-services"
+              path="custom-software-developments"
               element={<CloudComputing />}
             />
-            <Route path="vr-ar-development" element={<VRAndAR />} />
+            <Route path="robotic-process-automation" element={<VRAndAR />} />
+            <Route
+              path="robotic-control-system"
+              element={<RoboticControlSystem />}
+            />
           </Route>
 
           {/* Landing Pages */}

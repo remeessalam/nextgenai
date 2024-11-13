@@ -7,8 +7,9 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const WebDevelopment = () => {
   const next = services[1];
+  const details = services[0];
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 text-black">
       <img
         data-aos="fade-up"
         src={img1}
@@ -18,101 +19,50 @@ const WebDevelopment = () => {
       />
       <div className="flex flex-col gap-4">
         <h2 data-aos="fade-up" className="heading">
-          Web Development
+          Web Designing
         </h2>
         <p data-aos="fade-up" className="description">
-          At AI WebX, we recognize that web development is more than just
-          building websites; it’s about creating dynamic, interactive
-          experiences that empower businesses and engage users. As a leader in
-          technology solutions, we leverage cutting-edge practices in web
-          development to deliver exceptional results for our clients, helping
-          them thrive in an increasingly digital world.
+          We understand that your website is more than just an online
+          presence—it’s a critical business asset that showcases your brand,
+          engages your audience, and drives growth. That’s why we focus on
+          delivering exceptional website development services that blend
+          creativity, functionality, and cutting-edge technology to create
+          websites that truly stand out. Whether you’re a growing business
+          looking to establish a professional online presence or a large
+          enterprise seeking a dynamic e-commerce platform, we tailor our
+          website development solutions to meet your unique needs. We don’t just
+          build websites; we create engaging digital experiences that convert
+          visitors into loyal customers, helping your business thrive in a
+          competitive digital landscape.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
-          Understanding Our Approach to Web Development
+          Key Features of Our Website Development Services
         </h2>
-        <p data-aos="fade-up" className="description">
-          At AI WebX, our web development services encompass both front-end and
-          back-end development, ensuring a comprehensive approach to each
-          project. Our front-end team specializes in creating visually stunning
-          and user-friendly interfaces. Utilizing technologies such as HTML,
-          CSS, and JavaScript, we design responsive layouts that adapt
-          seamlessly across devices. This focus on user experience is essential
-          in today’s fast-paced digital environment, where first impressions can
-          significantly impact customer engagement.
-          <br />
-          <br />
-          On the back-end, our skilled developers implement robust solutions
-          using programming languages like PHP, Ruby, and Python. We prioritize
-          security and efficiency in all data transactions, providing a solid
-          foundation for our clients’ web applications. By ensuring that our
-          back-end systems are scalable and performant, we empower businesses to
-          grow without compromising on functionality or security.
-        </p>
       </div>
-      <div className="grid lg:grid-cols-2 gap-7">
-        <div className="h-full w-full">
-          <img
-            loading="lazy"
-            src={img2}
-            className="h-full max-h-[20rem] w-full lg:max-h-max object-cover object-left rounded-md"
-            alt="web development"
-          />
-        </div>
+      <div className="h-full w-full">
+        <img
+          loading="lazy"
+          src={img2}
+          className="h-full max-h-[20rem] w-full lg:max-h-max object-cover object-left rounded-md"
+          alt="web development"
+        />
+      </div>
+      <div className="grid lg:grid-cols-1 gap-7">
         <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-2">
-            <div className="flex gap-3 items-center">
-              <div className="w-[1.6rem] text-lg h-[1.6rem] rounded-full flex items-center justify-center border-2 border-[#00B0FC] text-[#00B0FC]">
-                ✓
+          {details.keyPoints.points.map((item) => (
+            <div className="flex flex-col gap-2">
+              <div className="flex gap-3 items-center">
+                <div className="w-[1.6rem] text-lg h-[1.6rem] rounded-full flex items-center justify-center border-2 border-[#00B0FC] text-[#00B0FC]">
+                  ✓
+                </div>
+                <h3 className="text-lg font-semibold">{item.heading}</h3>
               </div>
-              <h3 className="text-lg font-semibold">
-                E-Commerce Platform Development
-              </h3>
+              <p>{item.description}</p>
             </div>
-            <p>
-              From simple online stores to complex e-commerce platforms, we
-              develop solutions that boost sales, enhance customer experience,
-              and simplify transactions.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2">
-            <div className="flex gap-3 items-center">
-              <div className="w-[1.6rem] text-lg h-[1.6rem] rounded-full flex items-center justify-center border-2 border-[#00B0FC] text-[#00B0FC]">
-                ✓
-              </div>
-              <h3 className="text-lg font-semibold">
-                Custom Web Application Development
-              </h3>
-            </div>
-            <p>
-              We build bespoke web applications that cater to the unique needs
-              of your business, ensuring seamless user experiences, high
-              performance, and security.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2">
-            <div className="flex gap-3 items-center">
-              <div className="w-[1.6rem] text-lg h-[1.6rem] rounded-full flex items-center justify-center border-2 border-[#00B0FC] text-[#00B0FC]">
-                ✓
-              </div>
-              <h3 className="text-lg font-semibold">Full Stack Development</h3>
-            </div>
-            <p>
-              Our team handles both client-side and server-side development,
-              ensuring fast, reliable, and scalable web solutions.
-            </p>
-          </div>
+          ))}
         </div>
       </div>
-      <p>
-        At AI WebX, we envision a future where technology continues to break
-        barriers and create limitless possibilities for businesses. Our
-        commitment to innovation drives us to explore new technologies and
-        methodologies that will shape the next generation of web solutions. With
-        a passionate team dedicated to excellence, we aim to deliver tailored
-        web development services that not only meet our clients’ unique needs
-        but also set them up for long-term success in the digital realm.
-      </p>
+
       <hr />
       <div className="flex flex-col sm:flex-row w-full justify-end gap-6">
         <Link to={next.link} className="flex items-center self-end gap-3">
