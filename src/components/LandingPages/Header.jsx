@@ -18,7 +18,12 @@ const Header = () => {
           smooth={true}
           duration={500}
         >
-          <img src={logo} loading="lazy" alt="logo" className="h-[5rem] md:h-[6.5rem] object-contain" />
+          <img
+            src={logo}
+            loading="lazy"
+            alt="logo"
+            className="h-[5rem] md:h-[6.5rem] object-contain"
+          />
         </ReactScrollLink>
         <div className="hidden md:flex items-center gap-10">
           {landingPageNavLinks.map((item) => (
@@ -41,7 +46,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#fffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -59,7 +64,7 @@ const Header = () => {
           <img src={logo} alt="logo" className="h-[2.5rem] object-contain" />
           <button
             onClick={() => setIsOpen(false)}
-            className="text-primary text-[2.2rem]"
+            className="text-black text-[2.2rem]"
           >
             <IoMdClose />
           </button>

@@ -23,8 +23,10 @@ const Banner = () => {
     <div
       id="banner"
       loading="lazy"
-      className="min-h-screen w-full relative flex justify-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${bannerImg})` }}
+      className="min-h-screen w-full relative flex justify-center bg-opacity-10 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bannerImg})`,
+      }}
     >
       <div className="wrapper pt-[10rem] pb-[5rem] flex flex-col-reverse lg:grid grid-cols-[60%_40%] items-center gap-5">
         <div className="flex flex-col gap-4 items-start justify-center">
@@ -40,7 +42,10 @@ const Banner = () => {
           >
             NEXTGENAI SYSTEMS LLP - Innovating for a Smarter, Connected Future
           </h1>
-          <p data-aos="fade-right" className="text-sm text-gray-100">
+          <p
+            data-aos="fade-right"
+            className="text-sm text-gray-400 focused-textno"
+          >
             At NEXTGENAI SYSTEMS LLP, we ignite transformative digital solutions
             with our passionate team of expert developers, designers, and
             technologists. We specialize in crafting unique websites, mobile
@@ -54,7 +59,7 @@ const Banner = () => {
           <Link
             to="/contact"
             data-aos="fade-right"
-            className="primary-btn mt-10"
+            className="primary-btn mt-10 hover:text-black"
           >
             Get Started
           </Link>

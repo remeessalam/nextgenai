@@ -44,7 +44,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#ffffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -62,7 +62,7 @@ const Header = () => {
           <img src={logo} alt="logo" className="h-[2.5rem] object-contain" />
           <button
             onClick={() => setIsOpen(false)}
-            className="text-primary text-[2.2rem]"
+            className="text-main text-[2.2rem]"
           >
             <IoMdClose />
           </button>

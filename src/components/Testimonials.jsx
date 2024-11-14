@@ -24,8 +24,10 @@ const Testimonials = () => {
   return (
     <div
       id="reviews"
-      className="min-h-[70vh] py-[5rem] w-full bg-cover bg-no-repeat bg-bottom flex items-center z-10"
-      style={{ backgroundImage: `url(${testiImg})` }}
+      className="min-h-[70vh] py-[5rem] w-full bg-cover  bg-no-repeat bg-bottom flex items-center z-10"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${testiImg})`,
+      }}
     >
       <div className="wrapper grid lg:grid-cols-2 gap-10 w-full">
         <div
@@ -39,7 +41,7 @@ const Testimonials = () => {
           <h2 className="text-[2rem] md:text-4xl capitalize font-semibold mb-5 text-center lg:text-start lg:max-w-[30rem]">
             Clients Feedback Examples You
           </h2>
-          <p className="text-gray-100 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
+          <p className="text-gray-100 focused-textno text-sm mb-5 max-w-[30rem] text-center lg:text-start">
             At NEXTGENAI, we take pride in the success of our clients. Here's
             what some of them have to say about their experience working with
             us:
