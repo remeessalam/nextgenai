@@ -34,7 +34,7 @@ const LeadForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from AI WebX",
+      subject: "You have a new message from NEXTGENAI",
       body: emailBody,
     };
 
@@ -65,12 +65,12 @@ const LeadForm = () => {
           <h2 className="text-[2rem] md:text-4xl font-semibold mb-3">
             Get in touch with us
           </h2>
-          <p className="text-gray-700 text-sm mb-5">
+          <p className="text-gray-100 text-sm mb-5">
             We are always open to discuss your project, improve your online
             presence
           </p>
           <form
-            onSubmit={handleSubmit(handleFormSubmit)}
+            // onSubmit={handleSubmit(handleFormSubmit)}
             className="flex flex-col gap-1"
           >
             <div className="flex flex-col">

@@ -165,7 +165,7 @@ const AboutUs = () => {
                 className="max-w-[20rem] sm:max-w-full sm:w-full z-10 relative bg-black/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-lg p-5 border-2 border-primary"
               >
                 <img
-                  src={process1}
+                  src={items.img}
                   loading="lazy"
                   className="w-[3rem] sm:w-[5rem] object-contain"
                   alt="process"

@@ -123,7 +123,7 @@ const LandingPage = ({ page }) => {
       </div> */}
       <WorkFlow page={page} />
       {/* <Experience /> */}
-      {/* <Testimonials /> */}
+      <Testimonials />
       <LeadForm />
       {/* <AssociatedWith /> */}
       <Footer />

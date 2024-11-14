@@ -338,26 +338,32 @@ export const whyusDetails = [
 
 export const aboutusDetails = [
   {
+    img: require("./assets/images/icons/discoveryphase.png"),
     heading: "Discovery Phase",
     description:
       "We embark on a comprehensive discovery journey, engaging in deep, insightful discussions with your team to gain a thorough understanding of your business model, target audience, and unique challenges. This collaborative process allows us to uncover the nuances of your operations and market dynamics, ensuring that we align our strategies with your vision. By delving into your specific needs and objectives, we lay the foundation for creating tailored solutions that drive meaningful results and foster sustainable growth.",
   },
   {
+    img: require("./assets/images/icons/tailoredsolutions.png"),
+
     heading: "Tailored Solutions",
     description:
       "Drawing from our in-depth insights, we craft bespoke strategies that harness the latest technological advancements to address your specific needs. Each solution is meticulously designed to align with your business objectives, ensuring that we not only meet your requirements but also unlock new opportunities for innovation and growth. Our commitment to personalization guarantees that you receive a solution that is uniquely yours, empowering your organization to thrive in a competitive landscape while maximizing efficiency and impact.",
   },
   {
+    img: require("./assets/images/icons/agiledevelopment.png"),
     heading: "Agile Development",
     description:
       "By embracing agile methodologies, we cultivate an environment of flexibility and adaptability throughout the project lifecycle. This dynamic approach empowers us to respond swiftly to changes and feedback, ensuring that your evolving needs are met with precision. Our iterative development process fosters continuous collaboration and transparency, allowing us to refine and enhance solutions in real time. This not only accelerates delivery but also guarantees that the final product is perfectly aligned with your vision, maximizing value and impact at every stage of development.",
   },
   {
+    img: require("./assets/images/icons/testingandquality.png"),
     heading: "Testing and Quality Assurance",
     description:
       "Our comprehensive testing and quality assurance processes are designed to ensure that every solution we deliver is not only robust and reliable but also primed for seamless deployment. We employ a multifaceted approach that includes thorough functional, performance, and security testing, meticulously examining every aspect of the solution to identify and resolve potential issues. Our commitment to excellence means that we uphold the highest standards of quality, giving you the confidence that your final product will perform flawlessly in real-world scenarios and exceed user expectations.",
   },
   {
+    img: require("./assets/images/icons/ongoingsupport.png"),
     heading: "Ongoing Support",
     description:
       "Our commitment to your success extends far beyond the launch of your solution. We offer continuous, proactive support and maintenance, ensuring that your systems evolve alongside your business needs. Our dedicated team is always on standby, ready to address any challenges that may arise and implement enhancements as necessary. This ongoing partnership enables you to navigate the ever-changing digital landscape with confidence, knowing that you have a reliable ally by your side. With NEXTGENAI SYSTEMS LLP, you gain not just a service provider, but a steadfast partner dedicated to fostering your long-term growth and success.",
@@ -612,7 +618,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "AI WebX transformed the way we handle our data analytics. Their AI and machine learning solutions have not only improved our efficiency but also provided us with deep insights that we never had before. Their team is professional, responsive, and innovative.",
+      "The team transformed our data analytics approach, providing intelligent solutions that significantly improved our operational efficiency. Their insights have been invaluable, and they demonstrated professionalism and responsiveness throughout the project.",
   },
   {
     id: 2,
@@ -620,7 +626,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p2.png"),
     designation: "CTO of FinServ Global",
     review:
-      "The blockchain solutions developed by AI WebX have been a game-changer for our financial services. The implementation was seamless, and we’ve noticed enhanced security and transparency in our transactions. Highly recommend them for any blockchain needs!",
+      "Their blockchain expertise has revolutionized our financial processes, enhancing both security and transparency. The seamless implementation speaks to their depth of experience. Highly recommended for blockchain solutions!",
   },
   {
     id: 3,
@@ -628,7 +634,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "We partnered with AI WebX for custom web and mobile app development, and they exceeded our expectations. Their attention to detail, creativity, and commitment to delivering on time was remarkable. The app is user-friendly and has significantly improved our customer engagement.",
+      "We partnered on a custom web and mobile app, and the results were outstanding. Their creativity, attention to detail, and commitment to deadlines were exceptional. The app has boosted our customer engagement tremendously.",
   },
   {
     id: 4,
@@ -636,7 +642,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p4.png"),
     designation: "IT Director at Global Enterprises",
     review:
-      "The cybersecurity solutions provided by AI WebX have given us peace of mind. They thoroughly assessed our infrastructure and implemented advanced threat detection and encryption technologies that protect our sensitive data. Their expertise is second to none!",
+      "Their cybersecurity solutions have greatly strengthened our infrastructure. From threat detection to advanced encryption, the protection they implemented offers peace of mind and shows true expertise.",
   },
   {
     id: 5,
@@ -644,7 +650,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "Our collaboration with AI WebX on VR development has opened new doors for our training programs. Their VR simulations are incredibly realistic and have helped us provide more effective and engaging training sessions for our employees.",
+      "Their VR development for our training programs has been transformative. The immersive simulations are highly effective, making training sessions both engaging and realistic. An exceptional partnership!",
   },
 ];
 

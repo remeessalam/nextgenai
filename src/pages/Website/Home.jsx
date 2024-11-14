@@ -226,45 +226,25 @@ const Home = () => {
             <h3 className="heading-2 capitalize">our mission</h3>
           </div>
           <p className="max-w-6xl">
-            we envision our relationship with you as a long-term partnership
-            dedicated to driving your business’s success. We believe that our
-            role goes beyond merely delivering technology solutions; we strive
-            to build enduring relationships that foster growth and
-            innovation.Our primary goal is to understand your unique business
-            objectives and challenges, allowing us to tailor our solutions to
-            your specific needs. We take the time to engage deeply with your
-            team, ensuring we fully grasp your vision and operational
-            requirements. By doing so, we create customized solutions that not
-            only meet your immediate needs but also align with your long-term
-            goals.As technology continues to advance at a rapid pace, we
-            recognize the importance of adaptability. We are committed to
-            ensuring that your business remains agile and ready to embrace the
-            future. Our team continuously monitors emerging trends and
-            technological innovations, providing you with insights and
-            recommendations that position you to take advantage of new
-            opportunities.Our relationship doesn’t end once the solution is
-            deployed. We offer ongoing support and maintenance to ensure that
-            your systems run smoothly and efficiently. Our dedicated support
-            team is always available to address any issues, implement updates,
-            and make necessary enhancements as your business evolves. We view
-            ourselves as an extension of your team, always ready to help you
-            navigate challenges and capitalize on opportunities.We committed to
-            empowering your business through the use of advanced technologies.
-            From artificial intelligence and robotic process automation to
-            custom software solutions, we help you leverage these tools to
-            achieve significant improvements in efficiency, productivity, and
-            customer satisfaction. Our focus is on providing you with
-            long-lasting competitive advantages that enhance your market
-            position.We believe that a successful partnership is built on trust,
-            transparency, and mutual growth. By working closely with you, we aim
-            to cultivate a collaborative environment that encourages innovation
-            and exploration. Together, we can navigate the complexities of the
-            digital landscape and build a sustainable future for your business.
+            We see our relationship with you as a long-term partnership focused
+            on driving your business’s success. Our goal goes beyond delivering
+            solutions; we aim to understand your unique objectives, engage
+            deeply with your team, and create tailored strategies that support
+            both immediate and long-term goals. As technology evolves rapidly,
+            we ensure your business stays adaptable and future-ready, monitoring
+            trends to provide insights that seize new opportunities. Our
+            commitment doesn’t end at deployment—we offer ongoing support,
+            updates, and enhancements, serving as an extension of your team. We
+            empower your business through advanced technologies like AI, RPA,
+            and custom software, driving gains in efficiency and customer
+            satisfaction. Built on trust and collaboration, our partnership
+            helps you navigate the digital landscape and build a sustainable
+            future.
           </p>
         </div>
       </div>
       {/* <Experience /> */}
-      {/* <Testimonials /> */}
+      <Testimonials />
       <LeadForm />
       {/* <AssociatedWith /> */}
 

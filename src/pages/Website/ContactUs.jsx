@@ -47,7 +47,7 @@ const ContactUs = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from AI WebX",
+      subject: "You have a new message from NEXTGENAI",
       body: emailBody,
     };
 

@@ -69,7 +69,7 @@ const Services = ({ page }) => {
                     className="w-[3rem] grayscale"
                   />
                 </div>
-                <h6 className="font-medium text-lg">{item.title}</h6>
+                <h6 className="font-medium text-black text-lg">{item.title}</h6>
                 <p className="text-gray-700 text-sm">{item.description}</p>
               </div>
             ))}
