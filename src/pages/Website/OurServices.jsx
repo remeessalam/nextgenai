@@ -50,7 +50,8 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      {/* <Testimonials />
+      <Testimonials />
+      {/* 
       <SolveITNeeds /> */}
       <Footer />
     </div>
