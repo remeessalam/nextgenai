@@ -94,7 +94,7 @@ const Form = () => {
                   </label>
                   <input
                     type="text"
-                    className="border outline-none border-secondary bg-black/5 rounded-sm p-2"
+                    className="border outline-none border-main bg-black/5 rounded-sm p-2"
                     placeholder="Full Name"
                     {...register("name", {
                       required: "Full name is required",
@@ -117,7 +117,7 @@ const Form = () => {
                   </label>
                   <input
                     type="email"
-                    className="border outline-none border-secondary bg-black/5 rounded-sm p-2"
+                    className="border outline-none border-main bg-black/5 rounded-sm p-2"
                     placeholder="Email Address"
                     {...register("email", {
                       required: "Email is required",
@@ -139,7 +139,7 @@ const Form = () => {
                   </label>
                   <input
                     type="tel"
-                    className="border outline-none border-secondary bg-black/5 rounded-sm p-2"
+                    className="border outline-none border-main bg-black/5 rounded-sm p-2"
                     placeholder="Phone Number"
                     {...register("phone", {
                       required: "Phone number is required",
@@ -160,7 +160,7 @@ const Form = () => {
                   </label>
                   <input
                     type="text"
-                    className="border outline-none border-secondary bg-black/5 rounded-sm p-2"
+                    className="border outline-none border-main bg-black/5 rounded-sm p-2"
                     placeholder="Enter Subject"
                     {...register("subject", {
                       required: "Subject is required",
@@ -184,7 +184,7 @@ const Form = () => {
                 </label>
                 <textarea
                   type="text"
-                  className="border outline-none border-secondary bg-black/5 rounded-sm p-2"
+                  className="border outline-none border-main bg-black/5 rounded-sm p-2"
                   placeholder="Enter Message"
                   rows="4"
                   {...register("message", {
@@ -205,7 +205,7 @@ const Form = () => {
               <button
                 disabled={isSubmitting}
                 // type="submit"
-                className="px-4 py-3 text-white bg-secondary rounded-sm w-full max-w-[50%]"
+                className="primary-btn mt-3 hover:text-black"
               >
                 Send Message
               </button>
