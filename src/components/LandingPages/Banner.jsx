@@ -50,7 +50,10 @@ const Banner = ({ page }) => {
             {page === "app-development" &&
               "Harness the power of innovative app development to reach your audience anytime, anywhere. At NEXTGENAI, we specialize in crafting custom mobile and web applications that deliver seamless user experiences, boost engagement, and drive growth. From intuitive interfaces to robust functionalities, our tailored app solutions are designed to help your business thrive in the digital age, empowering you to stay ahead of the competition."}
           </p>
-          <Link data-aos="fade-right" className="primary-btn mt-10">
+          <Link
+            data-aos="fade-right"
+            className="primary-btn mt-10 hover:text-black"
+          >
             Get Started
           </Link>
         </div>
