@@ -34,37 +34,28 @@ const LandingPage = ({ page }) => {
           >
             Our Portfolio
           </h2>
-          <p data-aos="fade-up" className="mt-2 mb-3">
+          <p data-aos="fade-up" className="mt-2 mb-3 text-center">
             Explore some of the successful projects we have delivered,
             showcasing our expertise across diverse domains. Here are some of
             our valued clients and the work we've done for them
           </p>
         </div>
-        <ul className="md:pl-5 mt-3 flex flex-col gap-8">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-3">
           {portfolioData.map((project, index) => (
             <li
               key={index}
               data-aos="fade-up"
-              className="flex flex-col md:flex-row items-start gap-6"
+              className="flex flex-col items-center"
             >
-              <img
-                src={project.image}
-                alt={`${project.name} website preview`}
-                className="w-full md:w-1/3 h-auto object-cover rounded-lg"
-              />
-              <div>
-                <strong className="text-[1.3rem] text-main">
+              <div className="relative w-full h-[300px]">
+                <img
+                  src={project.image}
+                  alt={`${project.name} app preview`}
+                  className="w-full h-full object-cover rounded-lg"
+                />
+                <strong className="w-full text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-75 text-main px-3 py-1 rounded">
                   {project.name}
                 </strong>
-                <p className="mt-2">{project.description}</p>
-                {page === "web-development" && (
-                  <button
-                    onClick={() => window.open(project.link, "_blank")}
-                    className="mt-3 primary-btn hover:text-black"
-                  >
-                    Visit Website
-                  </button>
-                )}
               </div>
             </li>
           ))}

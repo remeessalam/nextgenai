@@ -19,7 +19,7 @@ export const portfolioDataApp = [
     image: portfoliappone,
   },
   {
-    name: "Driver",
+    name: "Find A Driver",
     description:
       "Driver is a comprehensive driver management platform that simplifies fleet operations, driver scheduling, and route optimization. The app is designed to maximize productivity and provide seamless navigation features.",
     image: portfoliapptwo,

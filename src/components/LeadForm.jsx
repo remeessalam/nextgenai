@@ -17,6 +17,7 @@ const LeadForm = () => {
     defaultValues: {
       name: "",
       email: "",
+      mobile: "",
       subject: "",
       message: "",
     },
@@ -28,6 +29,7 @@ const LeadForm = () => {
 
     var emailBody = "Name: " + values.name + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
+    emailBody += "mobile: " + values.subject + "\n\n";
     emailBody += "Subject: " + values.subject + "\n\n";
     emailBody += "Message:\n" + values.message;
 
@@ -94,6 +96,7 @@ const LeadForm = () => {
               />
               <small className="error-message">{errors.name?.message}</small>
             </div>
+
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
                 Email
@@ -112,6 +115,26 @@ const LeadForm = () => {
               />
               <small className="error-message">{errors.email?.message}</small>
             </div>
+
+            <div className="flex flex-col">
+              <label htmlFor="" className="text-sm ml-1">
+                Mobile Number
+              </label>
+              <input
+                type="tel"
+                className="border outline-none border-primary rounded-sm p-2"
+                placeholder="Mobile Number"
+                {...register("mobile", {
+                  required: "Mobile number is required",
+                  pattern: {
+                    value: /^[0-9]{10}$/,
+                    message: "Enter a valid 10-digit mobile number",
+                  },
+                })}
+              />
+              <small className="error-message">{errors.mobile?.message}</small>
+            </div>
+
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
                 Subject
@@ -133,12 +156,12 @@ const LeadForm = () => {
               />
               <small className="error-message">{errors.subject?.message}</small>
             </div>
+
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
                 Message
               </label>
               <textarea
-                type="text"
                 className="border outline-none border-primary rounded-sm p-2"
                 placeholder="Enter Message"
                 rows="4"
@@ -155,6 +178,7 @@ const LeadForm = () => {
               />
               <small className="error-message">{errors.message?.message}</small>
             </div>
+
             <button
               disabled={isSubmitting}
               // type="submit"
