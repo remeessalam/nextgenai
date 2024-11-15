@@ -15,6 +15,7 @@ import {
   portfolioDataWeb,
 } from "../../constant";
 import WorkFlow from "../../components/WorkFlow";
+import Form from "../../components/LandingPages/Form";
 
 const LandingPage = ({ page }) => {
   const portfolioData =
@@ -24,6 +25,7 @@ const LandingPage = ({ page }) => {
       <WhatsAppIcon />
       <Header />
       <Banner page={page} />
+      <Form />
       <Services page={page} />
       <Development page={page} />
       <div className="wrapper py-[2rem] flex flex-col gap-3">
