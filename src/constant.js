@@ -464,7 +464,8 @@ export const aboutusDetails = [
 // details
 export const companyDetails = {
   phone: "+916363237815",
-  email: "abc@example.cn",
+  companyemail: "ceo@nextgenaisystems.in",
+  email: "nextgenai.systemsllp@gmail.com",
   location:
     "Visit us at Flat-405, Chaitra Alpine Apartment, Alfa Garden, 1st Right Cross, Kodigehalli, KR Puram, Bengaluru – 560036",
 };

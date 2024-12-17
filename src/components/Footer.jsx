@@ -52,6 +52,17 @@ const Footer = () => {
               </li>
               <li className="flex gap-2 items-center">
                 <img
+                  src={emailIcon}
+                  alt="email"
+                  className="w-[1.5rem] object-contain grayscale"
+                />
+                <a href={`mailto:${companyDetails.companyemail}`}>
+                  <span className="font-medium">Company Email:</span>{" "}
+                  {companyDetails.companyemail}
+                </a>
+              </li>
+              <li className="flex gap-2 items-center">
+                <img
                   src={phoneIcon}
                   alt="phone"
                   className="w-[1.5rem] object-contain grayscale"
@@ -77,7 +88,12 @@ const Footer = () => {
               <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
                 <FaFacebookF />
               </Link>
-              <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
+              <Link
+                to={
+                  "https://www.instagram.com/next_genaisystems1?igsh=YjQzMXB6dzN1c3E4"
+                }
+                className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300"
+              >
                 <FaInstagram />
               </Link>
               <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">

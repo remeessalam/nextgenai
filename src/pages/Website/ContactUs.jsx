@@ -46,7 +46,7 @@ const ContactUs = () => {
 
     // Construct the request payload
     var payload = {
-      to: companyDetails.email,
+      to: companyDetails.companyemail,
       subject: "You have a new message from NEXTGENAI",
       body: emailBody,
     };
@@ -136,6 +136,12 @@ const ContactUs = () => {
             </span>
             <span className="relative z-10 group-hover:text-main mt-2">
               {companyDetails.email}
+            </span>
+            <span className="relative z-10 group-hover:text-main font-semibold mt-4">
+              Company Email Address
+            </span>
+            <span className="relative z-10 group-hover:text-main mt-2">
+              {companyDetails.companyemail}
             </span>
           </div>
           <div
