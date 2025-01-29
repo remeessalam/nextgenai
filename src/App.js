@@ -21,6 +21,7 @@ import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./components/SpinnerContext";
 import RoboticControlSystem from "./pages/Website/RoboticControlSystem";
+import Thankyou from "./pages/Website/ThankYou";
 
 AOS.init({
   once: true,
@@ -50,6 +51,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/services" element={<OurServices />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/thank-you" element={<Thankyou />} />
 
           {/* Services Detail Routes with Layout */}
           <Route path="/services" element={<ServicePageLayout />}>
