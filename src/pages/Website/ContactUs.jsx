@@ -34,7 +34,6 @@ const ContactUs = () => {
     },
   });
 
-  // handle form submit click
   const handleFormSubmit = async (values) => {
     setSpinner(true);
 
